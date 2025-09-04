@@ -16,4 +16,9 @@ fin=10000
 print("Los números del 1 al 10 000 son: ")
 for i in range(inicio, fin+1):
     print(i)
-    
+
+#Escribir un programa que imprima por pantalla los cuadrados de los 30 primeros números naturales.
+x=5
+print(f"Los cuadrados de los {x} primeros números naturales son: ")
+for i in range(1, x+1):
+    print(f"El cuadrado de {i} es {i ** 2}")
