@@ -48,3 +48,11 @@ def convertir_temperatura():
     temp_far=float(input("CONVERTIDOR DE GRADOS FAHRENHEIT A CENTÍGRADOS\n\nIngrese la temperatura en grados fahrenheit: "))
     temp_cent=(temp_far-32)*5/9
     print(f"{temp_far} grados Fahrenheit en grados centígrados son: {round(temp_cent, 2)} °C")
+
+#msj_consola()
+#suma_numeros()
+#imprimir_numeros()
+#imprimir_cuadrados()
+#multiplicar_numeros_consecutivos()
+#calcular_area_rectangulo()
+convertir_temperatura()
