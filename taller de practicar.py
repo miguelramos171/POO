@@ -22,3 +22,11 @@ x=5
 print(f"Los cuadrados de los {x} primeros números naturales son: ")
 for i in range(1, x+1):
     print(f"El cuadrado de {i} es {i ** 2}")
+
+#Escribir un programa que multiplique los 20 primeros número naturales.
+x=20
+resultado=1
+for i in range(1, x+1):
+    resultado *= i
+print(f"La multiplicación de los {x} primeros números naturales es: {resultado}")
+
