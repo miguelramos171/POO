@@ -30,3 +30,9 @@ for i in range(1, x+1):
     resultado *= i
 print(f"La multiplicación de los {x} primeros números naturales es: {resultado}")
 
+#Escribir un programa que calcule el área de un rectángulo de los cuales pedimos su alto y ancho (números decimales)
+print("Cálculo del área de un rectángulo")
+altura=float(input("Ingrese la altura del rectángulo: "))
+ancho=float(input("Ingrese el ancho del rectángulo: "))
+area=altura*ancho
+print(f"El área del rectángulo es: {round(area, 2)}")
